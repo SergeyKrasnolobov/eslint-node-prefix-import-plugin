@@ -3,3 +3,4 @@
 eslint.config.js
 .cache
 .idea
+.DS_Store
