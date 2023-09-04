@@ -1,0 +1,5 @@
+/node_modules
+/.vscode
+eslint.config.js
+.cache
+.idea
