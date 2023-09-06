@@ -2,7 +2,7 @@
   "name": "eslint-node-prefix-import",
   "version": "1.0.0",
   "description": "ESLint rule for add `node:` protocol when using builtin modules",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,7 +18,7 @@
   ],
   "author": "SergeyKrasnolobov",
   "license": "MIT",
-  "repository": "https://github.com/SergeyKrasnolobov/eslint-node-prefix-import",
+  "repository": "https://github.com/SergeyKrasnolobov/eslint-node-prefix-import-plugin",
   "engines": {
     "node": ">=16"
   },
@@ -27,9 +27,6 @@
   },
   "devDependencies": {
     "eslint": "^8.48.0",
-    "outdent": "^0.8.0"
-  },
-  "dependencies": {
     "jest": "^29.6.4"
   }
 }
